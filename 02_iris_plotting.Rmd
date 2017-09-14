@@ -1,0 +1,20 @@
+---
+title: "My first markdown"
+author: "Matiss Castorena"
+date: "9/14/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Our first markdown for EEB workshop.
+
+```{r echo=FALSE}
+plot(x=iris$Sepal.Length,
+     y=iris$Sepal.Width,
+     xlab="Separ length",
+     ylab="Sepal width",
+     main="Iris measuremnents")
+```
